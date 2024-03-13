@@ -1,0 +1,48 @@
+#banner{
+    background-color: white;
+    padding: 150px 0;
+    background: url(../../assets/bannerbg.png) no-repeat center/cover;
+}
+.ban-text h1{
+    font-size: 60px;
+    color: #000;
+    line-height: 80px;
+    font-weight: 600;
+}
+.ban-text p{
+    font-size: 23px;
+    color: #000;
+    font-weight: 400;
+    padding: 24px 0;
+}
+.ban-end{
+    display: flex;
+    gap: 100px;
+}
+.ban-btn a{
+    background-color: #3734A9;
+    padding: 15px 20px;
+    color: #fff !important;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.ban-text a{
+    color: #3734A9;
+    font-size: 20px;
+    position: relative;
+}
+.ban-text a i{
+    position: absolute;
+    top: -5px;
+    left: -50px;
+    font-size: 40px;
+    color: aquamarine;
+}
+.ban-img img{
+    width: 100%;
+}
